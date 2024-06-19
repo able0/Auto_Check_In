@@ -1,5 +1,5 @@
 <!--
- * @Author       : BNDou
+ * @Author       : able0
  * @Date         : 2022-10-30 19:12:57
  * @LastEditTime: 2024-06-12 13:42:01
  * @FilePath: \Auto_Check_In\README.md
@@ -10,7 +10,7 @@
 
 > 每日自动签到集合
 
-夸克网盘 | 吾爱汇编论坛 | 恩山论坛 | 
+夸克网盘 | 吾爱汇编论坛 | 恩山论坛 |  BILIBILI |
 
 ## 更新日志
 - 暂无
@@ -37,4 +37,4 @@ ql repo "https://github.com/able0/Auto_Check_In.git" "checkIn_" "backUp" "utils"
 
 ---
 
-[![](https://komarev.com/ghpvc/?username=BNDou&&label=Views "To Github")](https://github.com/BNDou/)
+[![](https://komarev.com/ghpvc/?username=able0&&label=Views "To Github")](https://github.com/able0/)
