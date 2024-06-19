@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @File     : checkIn_BiliBli.py
+# @File     : BILIBIL直播签到
 # @Time     : 2021/04/07 15:10
 # @Author   : able0
 
