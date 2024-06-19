@@ -27,7 +27,7 @@ ql repo "https://github.com/able0/Auto_Check_In.git" "checkIn_" "backUp" "utils"
 
 ## 捐赠支持，用爱发电
 
-<a href="https://github.com/BNDou/"><img height="200px" src="https://cdn.bndou.eu.org/gh/BNDou/Auto_Check_In/readme/donate.jpg" /></a>
+<a href="https://github.com/able0/"><img height="200px" src="https://drive.google.com/file/d/1AuudN6uCq3Nor8esqYo66UttjYCwLtW-/view?usp=drive_link" /></a>
 
 您的赞赏，激励我更好的创作！谢谢~
 
