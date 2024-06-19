@@ -10,19 +10,17 @@
 
 > 每日自动签到集合
 
-~~小米社区~~ | 掌飞签到 | 掌飞购物 | 掌飞寻宝 | 夸克网盘 | 人人视频 | 恩山论坛 | ~~必应搜索~~
+夸克网盘 | 吾爱汇编论坛 | 恩山论坛 | 
 
 ## 更新日志
-- 2024-06-12 新增 掌飞扫码登录 获取cookie关键属性(参数只适用于签到脚本)
-- 2024-05-10 新版掌飞V4 签到已更新
-- 新版掌飞V3 签到、掌飞购物、掌飞寻宝、掌飞开金丝篓已修复
+- 暂无
 
 ## 青龙部署
 
 1. 拉库指令（拉库失败请自行添加代理）
 
 ```
-ql repo "https://github.com/BNDou/Auto_Check_In.git" "checkIn_" "backUp" "utils" "main" "py"
+ql repo "https://github.com/able0/Auto_Check_In.git" "checkIn_" "backUp" "utils" "main" "py"
 ```
 
 2. 根据“**_代码文件头部注释_**”或者“**_运行提示_**”添加对应的“**_环境变量_**”
@@ -42,16 +40,6 @@ ql repo "https://github.com/BNDou/Auto_Check_In.git" "checkIn_" "backUp" "utils"
 那么上面的微信赞赏码可以扫一扫呢
 
 赞赏时记得留下【`GitHub昵称`】和【`留言`】
-
-### 捐赠榜
-
-| 用户 | 平台 |
-|:---:|:---:|
-| Citizen Z | WeChat |
-| 钟情于 | WeChat |
-| M | WeChat |
-| [Struggle-best](https://github.com/Struggle-best) | WeChat |
-| [Machae1](https://github.com/Machae1) | WeChat |
 
 ## 免责声明
 - 这里的脚本只是自己学习 python 的一个实践。
