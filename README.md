@@ -24,22 +24,7 @@ ql repo "https://github.com/able0/Auto_Check_In.git" "checkIn_" "backUp" "utils"
 ```
 
 2. 根据“**_代码文件头部注释_**”或者“**_运行提示_**”添加对应的“**_环境变量_**”
-3. 
-## 捐赠支持，用爱发电
 
-<a href="https://github.com/able0/"><img height="200px" src="https://s21.ax1x.com/2024/06/19/pkBnWjJ.md.jpg" /></a>
-
-您的赞赏，激励我更好的创作！谢谢~
-
-个人维护开源不易，本项目的开发与维护全都是利用业余时间。
-
-如果觉得我写的程序对你小有帮助，或者
-
-想投喂 `雪王牌柠檬水 * 1`
-
-那么上面的微信赞赏码可以扫一扫呢
-
-赞赏时记得留下【`GitHub昵称`】和【`留言`】
 
 ## 免责声明
 - 这里的脚本只是自己学习 python 的一个实践。
