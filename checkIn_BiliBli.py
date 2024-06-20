@@ -7,6 +7,11 @@ import os
 
 import requests
 
+try:  # 异常捕捉
+    from utils.sendNotify import send  # 导入消息通知模块
+except Exception as err:  # 异常捕捉
+    print('%s\n加载通知服务失败~' % err)
+
 # cookies
 COOKIES = os.environ.get("BILIBILI_COOKIES")
 SESSION = requests.Session()
@@ -35,8 +40,8 @@ HEADERS = {
 def check_in():
     url = "https://api.live.bilibili.com/xlive/web-ucenter/v1/sign/DoSign"
     r = SESSION.get(url)
-
     global msg
+    # send('BILIBILI直播签到', msg)
     try:
         obj = r.json()
         if obj["code"] == 0:
@@ -57,14 +62,19 @@ def check_in():
         msg += [{"name": "check_in error", "value": e}]
 
 
-def main():
+if __name__ == '__main__':
+    
+    print(" Bilibili 签到开始 ".center(60, "="))
+    
     SESSION.headers.update(HEADERS)
     check_in()
-    global msg
-    return "\n".join([f"{one.get('name')}: {one.get('value')}" for one in msg])
+    msg
+    msg = ("\n".join([f"{one.get('name')}: {one.get('value')}" for one in msg]))
+    print(msg)
 
-
-if __name__ == '__main__':
-    print(" Bilibili 签到开始 ".center(60, "="))
-    print(main())
+    try:
+        send('Bilibili直播签到', msg)
+    except Exception as err:
+        print('%s\n❌️错误，请查看运行日志！' % err)
+    
     print(" Bilibili 签到结束 ".center(60, "="), "\n")
